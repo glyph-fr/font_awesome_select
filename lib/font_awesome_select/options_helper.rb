@@ -17,7 +17,7 @@ module FontAwesomeSelect
     private
 
     def fa_icon_select_label_for(icon_name)
-      ["<i class='fa fa-#{ icon_name }'></i>", icon_name].join(' ')
+      ["<i class='fa fa-fw fa-#{ icon_name }'></i>", icon_name].join(' ')
     end
   end
 end
