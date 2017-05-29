@@ -46,7 +46,7 @@ Use the selectize-specific helper :
 And if you use [SimpleFormExtension](https://github.com/glyph-fr/simple_form_extension) :
 
 ```erb
-<%= form.input :icon, as: :selectize, collection: fa_selectize_icons_options %>
+<%= form.input :icon, as: :selectize, collection: fa_selectize_icons_options, escape: false %>
 ```
 
 ## Development
